@@ -7,7 +7,8 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
   standalone: true,
   imports: [MatSlideToggleModule],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrl:'./home.component.css',
+  template:''
 })
 export class HomeComponent {
   title = 'Instantpay India Limited';
